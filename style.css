@@ -16,6 +16,7 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 
 /* LAYOUT INTEIRO DA PÁGINA */
@@ -41,7 +42,7 @@ body {
 .instagram-login {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: column;
     width: 50%;
     min-height: 34rem;
@@ -61,6 +62,7 @@ body {
 .group:nth-child(1) {
     min-height: 22rem;
     margin-bottom: 10px;
+    padding: 20px 50px;
 }
 
 .instagram-logo {
@@ -71,6 +73,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 100%;
 }
 
 .group form input:first-child {
@@ -84,6 +87,7 @@ body {
     border: 1px solid lightgray;
     background: rgb(243, 243, 243);
     padding-left: 5px;
+    outline: none;
 }
 
 .link-facebook {
@@ -108,7 +112,7 @@ body {
 }
 /* BOTÃO DE LOGIN */
 .btn {
-    width: 310px;
+    width: 100%;
     height: 35px;
     background-color: #0095f6;
     display: flex;
@@ -132,7 +136,7 @@ body {
 .separador ul{
     display: flex;
     list-style: none;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
     margin: 10px 0;
